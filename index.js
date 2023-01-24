@@ -1,4 +1,4 @@
-let myLibrary = [new Book("Pirates of the Caribbean", ": Rob Kidd", 3340), new Book("Harry Potter", " J. K. Rowling", 2550, false), new Book("The three musketeers", "Alexandre Dumas", 1939, false)];
+let myLibrary = [new Book("Pirates of the Caribbean", "Rob Kidd", 3340), new Book("Harry Potter", " J. K. Rowling", 2550, false), new Book("The three musketeers", "Alexandre Dumas", 1939, false)];
 let sessionStorageLibrary = JSON.parse(sessionStorage.getItem('library'));
 
 let index = null;
